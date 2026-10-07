@@ -64,7 +64,7 @@ The spacing **in pixels is always auto-detected**. These settings only say what 
 You can also override both values for one run without editing the file:
 
 ```powershell
-py main.py "tray_photo.jpg" --cell-pitch-in 0.95 --show
+python main.py "tray_photo.jpg" --cell-pitch-in 0.95 --show
 ```
 
 ## Important calibration note
