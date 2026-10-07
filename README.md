@@ -28,19 +28,19 @@ This version separates the project into grid detection, leaf analysis, visualiza
 From PowerShell or Command Prompt in this folder:
 
 ```powershell
-py -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ## Run
 
 ```powershell
-py main.py "tobacco_tray.jpg" --show
+python main.py "tobacco_tray.jpg" --show
 ```
 
 Or give the full path to an image:
 
 ```powershell
-py main.py "C:\Users\Daniel\Pictures\tray_photo.jpg" --show
+python main.py "C:\Users\Daniel\Pictures\tray_photo.jpg" --show
 ```
 
 The program creates an `output` folder containing:
